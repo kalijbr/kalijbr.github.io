@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button, input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover, input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-size: 1.2rem;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url("https://images.pexels.com/photos/3807581/pexels-photo-3807581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  /* About Us Section Styles */
+  .about-us {
+    padding: 50px 20px;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Services Section Styles */
+  .services {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .services h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .services p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Us Section Styles */
+  .contact-us {
+    background-color: #eee;
+    padding: 50px 20px;
+  }
+  
+  .contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-us label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .contact-us input[type="submit"] {
+    width: auto;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
