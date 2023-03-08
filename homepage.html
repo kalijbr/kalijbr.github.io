@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Terms of Service</a></li>
+			</ul>
+			<div class="search-container">
+				<form action="#">
+					<input type="text" placeholder="Search...">
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+			<div class="login-container">
+				<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+				<button onclick="document.getElementById('id02').style.display='block'">Sign In</button>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Welcome to My Website</h1>
+		<p>This is a sample website created using HTML, CSS, and JavaScript.</p>
+	</main>
+
+	<footer>
+		<p>Copyright &copy; 2023, All rights reserved.</p>
+	</footer>
+
+	<!-- Sign Up Modal -->
+	<div id="id01" class="modal">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		<form class="modal-content" action="#">
+			<div class="container">
+				<h1>Sign Up</h1>
+				<hr>
+				<label for="email"><b>Email</b></label>
+				<input type="text" placeholder="Enter Email" name="email" required>
+
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+
+				<label for="psw-repeat"><b>Repeat Password</b></label>
+				<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+				<hr>
+				<button type="submit" class="signupbtn">Sign Up</button>
+			</div>
+		</form>
+	</div>
+
+	<!-- Sign In Modal -->
+	<div id="id02" class="modal">
+		<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+		<form class="modal-content" action="#">
+			<div class="container">
+				<h1>Sign In</h1>
+				<hr>
+				<label for="email"><b>Email</b></label>
+				<input type="text" placeholder="Enter Email" name="email" required>
+
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+				<hr>
+				<button type="submit" class="signinbtn">Sign In</button>
+			</
