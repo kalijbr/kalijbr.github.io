@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Form</title>
+	<style>
+		body {
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			font-size: 36px;
+			color: #009688;
+		}
+
+		form {
+			background-color: #fff;
+			border: 2px solid #009688;
+			border-radius: 5px;
+			padding: 20px;
+			width: 600px;
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		input[type="text"],
+		select,
+		input[type="date"] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			background-color: #f8f8f8;
+			font-size: 16px;
+			color: #555;
+		}
+
+		input[type="submit"] {
+			background-color: #009688;
+			color: #fff;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+			margin-top: 20px;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #008080;
+		}
+	</style>
+</head>
+<body>
+	<h1>Order Form</h1>
+	<form action="#" method="post">
+		<label for="order-number">Order #:</label>
+		<input type="text" id="order-number" name="order-number">
+
+		<label for="customer-id">Customer ID:</label>
+		<input type="text" id="customer-id" name="customer-id">
+
+		<label for="mobile-number">Mobile Number:</label>
+		<input type="text" id="mobile-number" name="mobile-number">
+
+		<label for="destination">Destination:</label>
+		<input type="text" id="destination" name="destination">
+
+		<label for="rmb">RMB:</label>
+		<input type="text" id="rmb" name="rmb">
+
+		<label for="aed">AED:</label>
+		<input type="text" id="aed" name="aed">
+
+		<label for="delivery">Delivery:</label>
+		<input type="text" id="delivery" name="delivery">
+
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address">
+
+		<label for="assign-date">Assign Data:</label>
+		<input type="date" id="assign-date" name="assign-date">
+
+		<label for="complete-date">Complete Date:</label>
+		<input type="date" id="complete-date" name="complete-date">
+
+		<label for="estimate-delivery">Estimate Delivery:</label>
+		<input type="date" id="estimate-delivery" name="estimate-delivery">
+
+		<label for="status">Status:</label>
+		<select id="status" name="status">
+			<option value="pending">Pending</option>
+			<option value="processing">Processing</option>
+			<option value="delivered">Delivered</option>
+			<option value="cancelled">Cancelled</option>
+        </select><br><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
